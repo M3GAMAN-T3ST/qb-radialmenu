@@ -596,6 +596,13 @@ Config.JobInteractions = {
             event = 'police:client:SeizeDriverLicense',
             shouldClose = true
         }, {
+            id = 'trafficstop', -- ps-mdt
+            title = 'Traffic Stop Alert',
+            icon = 'user-lock',
+            type = 'client',
+            event = 'ps-mdt:client:trafficStop',
+            shouldClose = true
+        }, {
             id = 'policeinteraction',
             title = 'Police Actions',
             icon = 'list-check',
